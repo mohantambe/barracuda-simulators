@@ -1,0 +1,20 @@
+server:
+    port: 2712
+    context-path: /api
+
+spring: 
+    main:
+        banner-mode: "off"
+    resources:
+        add-mappings:true     
+
+logging: 
+    level: 
+        org: 
+            springframework: INFO
+
+config:
+    oauth2:
+        accessTokenUri: /api/oauth/token
+        clientId: 0oak9n8ycwnEVCLzr0h7
+        clientSecret: eah6q3XD0g8MIYbDFqJXvfdWULp2X5CHY_vzgblc
